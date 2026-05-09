@@ -1,9 +1,8 @@
-# Music Preference Matching Using Manhattan Distance
+# Music Preference Matching Using Similarity Metrics
 
-This project explores how Manhattan Distance can be applied to measure user similarity in a simple music recommendation scenario.
+This project explores how similarity metrics such as Manhattan Distance and Euclidean Distance can be applied in a simple music recommendation scenario.
 
-The notebook demonstrates how user music preferences can be represented as numerical features and compared mathematically to identify similar users. Several important concepts in data science and recommendation systems are explored throughout the project.
-
+The project investigates how feature representation, scaling, and distance calculations influence recommendation behavior and user similarity ranking.
 ---
 
 ## Project Objectives
@@ -32,15 +31,15 @@ The dataset is designed for educational purposes to simulate user music preferen
 
 ---
 
-## Concepts Explored
+## Key Concepts
 
 - Manhattan Distance
+- Euclidean Distance
 - Similarity Analysis
 - Feature Engineering
-- Categorical Encoding
-- Scaling & Normalization
-- Weighted Manhattan Distance
-- Recommendation System Fundamentals
+- One-Hot Encoding
+- Min-Max Scaling
+- Recommendation Systems
 
 ---
 
@@ -61,19 +60,19 @@ Several important observations were discovered during the analysis:
 - Pandas
 - NumPy
 - Jupyter Notebook
-
 ---
+
+## Euclidean Distance Visualization
+
+![Euclidean Distance](euclidean_distance_top5.png)
 
 ## Future Improvements
 
-Possible future developments for this project include:
-
-- Implementing Euclidean Distance and Cosine Similarity
-- Building a K-Nearest Neighbors (KNN) recommendation system
-- Adding contextual listening activities (gym, studying, relaxing)
-- Using real-world music datasets
-- Visualizing similarity networks and clustering users
-- Developing a context-aware recommendation system
+- Cosine Similarity
+- K-Nearest Neighbors (KNN)
+- Context-Aware Recommendation Systems
+- Real-world Spotify datasets
+- User clustering and visualization
 
 ---
 
