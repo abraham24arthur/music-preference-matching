@@ -42,6 +42,13 @@ The dataset is designed for educational purposes to simulate user music preferen
 - Recommendation Systems
 
 ---
+## Project Files
+
+- `Music_Preference_Matching_Using_Manhattan_Distance.ipynb`
+- `Comparative_Similarity_Analysis.ipynb`
+- `music_preferences.csv`
+
+---
 
 ## Key Insights
 
@@ -63,9 +70,10 @@ Several important observations were discovered during the analysis:
 ---
 
 ## Euclidean Distance Visualization
-
+The following visualization shows the Top 5 most similar users using Euclidean Distance after Min-Max Scaling.
 ![Euclidean Distance](euclidean_distance_top5.png)
 
+---
 ## Future Improvements
 
 - Cosine Similarity
