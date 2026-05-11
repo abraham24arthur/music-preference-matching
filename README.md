@@ -1,6 +1,8 @@
 # Music Preference Matching Using Similarity Metrics
 
 This project explores how different similarity metrics influence recommendation behavior in a music preference matching scenario. The analysis focuses on understanding how feature representation, scaling, and vector similarity affect recommendation outcomes.
+
+
 ---
 
 ## Similarity Metrics Explored
