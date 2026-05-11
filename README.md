@@ -1,8 +1,6 @@
 # Music Preference Matching Using Similarity Metrics
 
-This project explores how similarity metrics such as Manhattan Distance and Euclidean Distance can be applied in a simple music recommendation scenario.
-
-The project investigates how feature representation, scaling, and distance calculations influence recommendation behavior and user similarity ranking.
+This project explores how different similarity metrics influence recommendation behavior in a music preference matching scenario. The analysis focuses on understanding how feature representation, scaling, and vector similarity affect recommendation outcomes.
 ---
 
 ## Similarity Metrics Explored
@@ -45,10 +43,12 @@ The dataset is designed for educational purposes to simulate user music preferen
 
 - Manhattan Distance
 - Euclidean Distance
-- Similarity Analysis
+- Cosine Similarity
 - Feature Engineering
 - One-Hot Encoding
-- Min-Max Scaling
+- Feature Scaling
+- Pairwise Similarity Analysis
+- Heatmap Visualization
 - Recommendation Systems
 
 ---
@@ -100,6 +100,12 @@ The following heatmap visualizes pairwise cosine similarity relationships betwee
 - User clustering and visualization
 
 ---
+## Repository Structure
+
+- `Music_Preference_Matching_Using_Manhattan_Distance.ipynb`
+- `Comparative_Similarity_Analysis.ipynb`
+- `Cosine_Similarity_for_Music_Preference_Matching.ipynb`
+- `music_preferences.csv`
 
 ## Repository Structure
 
