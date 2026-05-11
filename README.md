@@ -5,6 +5,16 @@ This project explores how similarity metrics such as Manhattan Distance and Eucl
 The project investigates how feature representation, scaling, and distance calculations influence recommendation behavior and user similarity ranking.
 ---
 
+## Similarity Metrics Explored
+
+This project explores multiple similarity approaches for recommendation systems:
+
+- Manhattan Distance
+- Euclidean Distance
+- Cosine Similarity
+
+The experiments demonstrate how different similarity metrics produce different recommendation behaviors and interpretations.
+
 ## Project Objectives
 
 - Understand the fundamentals of Manhattan Distance
@@ -74,6 +84,13 @@ The following visualization shows the Top 5 most similar users using Euclidean D
 ![Euclidean Distance](euclidean_distance_top5.png)
 
 ---
+## Cosine Similarity Heatmap
+
+The following heatmap visualizes pairwise cosine similarity relationships between users based on their music preference vectors.
+
+![Cosine Similarity Heatmap](cosine_similarity_heatmap.png)
+
+
 ## Future Improvements
 
 - Cosine Similarity
